@@ -20,7 +20,7 @@
                 }else{
                     $number = $_POST['number'];
                     if($number == $a[$random_keys]){
-                        echo "<p style='color: green;'>congratulations your Right Number guess</p>";
+                        echo "<p style='color: #55efc4;'>congratulations your Right Number guess</p>";
                     }else{
                         echo "<p style='color: red;'>Wrong Number</p>";
                     }
